@@ -49,7 +49,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "1vN1wx4mhmiWQ-UVG7cbN72pym1vZX02L",
+      "MXZOMXd4NG1obWlXUS1VVkc3Y2JONzJweW0xdlpYMDJM",
     isTeamDrive: true, // Set this to true if you're using Team Drive
     defaultQuery: [
       "trashed = false",
