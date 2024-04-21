@@ -49,8 +49,8 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "c760fc0eae9990d4accbc2134af21e45a378d412af2c78020070a9f9ac548b98fe61c4f6be953a8d7be6a035e6f7766c",
-    isTeamDrive: false, // Set this to true if you're using Team Drive
+      "1vN1wx4mhmiWQ-UVG7cbN72pym1vZX02L",
+    isTeamDrive: true, // Set this to true if you're using Team Drive
     defaultQuery: [
       "trashed = false",
       "(not mimeType contains 'google-apps' or mimeType contains 'folder')",
