@@ -48,9 +48,12 @@ const config: z.input<typeof Schema_Config> = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
+    //rootFolder:
+      //"88ab7b0b295e15ba536a9978a393f25e905333f87e560ac7765adf30b1392380f4295e56675ac02fec3ffb95cf49121f",
+    //isTeamDrive: true, // Set this to true if you're using Team Drive
     rootFolder:
-      "88ab7b0b295e15ba536a9978a393f25e905333f87e560ac7765adf30b1392380f4295e56675ac02fec3ffb95cf49121f",
-    isTeamDrive: true, // Set this to true if you're using Team Drive
+      "d7711156fc5280b22fa7863d540ca49a9f19cc5cdac9978f603a45b100be5880d05203e619d25aa5a7854c817f4ca20b", // Personal drive
+    isTeamDrive: false, // Set this to true if you're using Team Drive
     defaultQuery: [
       "trashed = false",
       "(not mimeType contains 'google-apps' or mimeType contains 'folder')",
